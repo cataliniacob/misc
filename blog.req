@@ -1,0 +1,25 @@
+# 3rd party upstream mirrors
+-e hg+file:///home/catalin/data/hacking/python/greenlet@tip#egg=greenlet
+-e hg+file:///home/catalin/data/hacking/python/eventlet@tip#egg=eventlet
+
+-e git+file:///home/catalin/data/hacking/python/simplejson@HEAD#egg=simplejson
+-e svn+http://pylockfile.googlecode.com/svn/trunk@HEAD#egg=lockfile
+
+-e git+file:///home/catalin/data/hacking/python/werkzeug@HEAD#egg=Werkzeug
+
+-e git+file:///home/catalin/data/hacking/python/django@HEAD#egg=Django
+
+-e hg+file:///home/catalin/data/hacking/python/south@tip#egg=South
+-e git+file:///home/catalin/data/hacking/python/django-extensions@HEAD#egg=django_extensions
+-e git+file:///home/catalin/data/hacking/python/django-indexer@HEAD#egg=django_indexer
+-e git+file:///home/catalin/data/hacking/python/django-paging@HEAD#egg=django_paging
+-e git+file:///home/catalin/data/hacking/python/django-templatetag-sugar@HEAD#egg=django_templatetag_sugar
+-e git+file:///home/catalin/data/hacking/python/raven@HEAD#egg=raven
+-e git+file:///home/catalin/data/hacking/python/django-sentry@HEAD#egg=django_sentry
+-e git+file:///home/catalin/data/hacking/python/django-rest-framework@HEAD#egg=djangorestframework
+
+# psycopg2 doesn't work with -e
+/home/catalin/data/hacking/python/psycopg2/
+
+# own code directly from GitHub
+-e git+ssh://git@github.com/cataliniacob/blog.git@HEAD#egg=blog
