@@ -1,11 +1,13 @@
 #!/bin/bash
 
 sudo zypper install \
-emacs \
+emacs-x11 \
 htop \
 mercurial \
 gcc \
 git git-daemon git-gui gitk \
 make \
 ncurses-devel \
-osc
+osc \
+sqlite3 \
+systemd-analyze
