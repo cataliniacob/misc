@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo zypper install \
+chromium \
 emacs-x11 \
 htop \
 mercurial \
