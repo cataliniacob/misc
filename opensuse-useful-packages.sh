@@ -10,5 +10,6 @@ make \
 mercurial \
 ncurses-devel \
 osc \
+quilt \
 sqlite3 \
 systemd-analyze
