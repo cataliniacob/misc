@@ -4,6 +4,7 @@ import logging
 import re
 import os
 import shutil
+import subprocess
 
 logger = logging.getLogger(__name__)
 
@@ -65,5 +66,7 @@ if __name__ == u'__main__':
 
             if input in (u'y', u'n'):
                 known_input = True
-    
-    logger.info(u'Removed kernels, update your bootloader:\n%s', u'\n'.join(removed))
+
+    if removed:
+        logger.info(u'Kernels were removed, updating bootloader...')
+        subprocess.check_call([u'/sbin/update-bootloader', u'--refresh'])
