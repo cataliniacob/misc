@@ -7,7 +7,7 @@ import shutil
 
 logger = logging.getLogger(__name__)
 
-BOOT_FILE_PREFIXES = (u'initrd', u'System.map', u'vmlinuz', )
+BOOT_FILE_PREFIXES = (u'initrd', u'System.map', u'vmlinux', u'vmlinuz', )
 
 def discover_in_dir(directory, file_prefix):
     version_pattern = u'(?P<version>[\\w.-]+catalin[\\w.-]*)'
