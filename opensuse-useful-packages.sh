@@ -4,7 +4,7 @@ sudo zypper install \
 chromium \
 emacs-x11 \
 htop \
-gcc \
+gcc gcc-c++ \
 git git-daemon git-gui gitk \
 make \
 mercurial \
