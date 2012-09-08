@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo zypper install \
+gdbm-devel \
+libbz2-devel \
+libexpat-devel \
+libopenssl-devel \
+sqlite3-devel \
+tk-devel
