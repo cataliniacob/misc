@@ -11,9 +11,11 @@ mercurial \
 ncurses-devel \
 osc \
 python-devel \
+python-Pygments \
 python-six \
 python3 \
 python3-devel \
+python3-Pygments \
 python3-six \
 quilt \
 sqlite3 \
