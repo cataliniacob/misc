@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo zypper install \
+bzr \
 chromium \
 emacs-x11 \
 htop \
