@@ -4,11 +4,13 @@ sudo zypper install \
 autoconf \
 automake \
 bzr \
+calibre \
 chromium \
 emacs-x11 \
 htop \
 gcc gcc-c++ \
 git git-daemon git-gui gitk \
+iotop \
 libtool \
 make \
 mercurial \
