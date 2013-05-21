@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo zypper install \
+alsa-devel \
+autoconf213 \
+dbus-1-devel dbus-1-glib-devel \
+xorg-x11-libXt-devel \
+yasm
