@@ -4,5 +4,6 @@ sudo zypper install \
 alsa-devel \
 autoconf213 \
 dbus-1-devel dbus-1-glib-devel \
+gstreamer-0_10-devel gstreamer-0_10-plugins-base-devel \
 xorg-x11-libXt-devel \
 yasm
