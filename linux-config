@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.17.0-rc2 Kernel Configuration
+# Linux/x86 3.17.0-rc3 Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -495,6 +495,7 @@ CONFIG_HZ_1000=y
 CONFIG_HZ=1000
 CONFIG_SCHED_HRTICK=y
 CONFIG_KEXEC=y
+CONFIG_KEXEC_FILE=y
 # CONFIG_KEXEC_VERIFY_SIG is not set
 CONFIG_CRASH_DUMP=y
 # CONFIG_KEXEC_JUMP is not set
@@ -3280,6 +3281,7 @@ CONFIG_USB_STORAGE_CYPRESS_ATACB=y
 #
 # CONFIG_USB_MDC800 is not set
 # CONFIG_USB_MICROTEK is not set
+# CONFIG_USBIP_CORE is not set
 # CONFIG_USB_MUSB_HDRC is not set
 # CONFIG_USB_DWC3 is not set
 # CONFIG_USB_DWC2 is not set
@@ -3510,7 +3512,6 @@ CONFIG_VIRT_DRIVERS=y
 CONFIG_STAGING=y
 # CONFIG_ET131X is not set
 # CONFIG_SLICOSS is not set
-# CONFIG_USBIP_CORE is not set
 # CONFIG_PRISM2_USB is not set
 # CONFIG_COMEDI is not set
 # CONFIG_PANEL is not set
