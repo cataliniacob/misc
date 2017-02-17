@@ -29,4 +29,9 @@ find /sys -path '*/power/control' | while read -r file; do
     fi
 done
 
+ip link set eno1 down
+if [[ $1 = "--wifi" ]]; then
+	ip link set wlp3s0 down
+fi
+
 powertop
